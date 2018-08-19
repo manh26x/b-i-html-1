@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bài HTML 1</title>
+</head>
+<body>
+	<div id="r">
+		Nội dung bài viết
+	</div >
+	<div id="l">
+		<div id="btn">
+			<pre><button name="trangchu" value="ok">Trang chủ</button></pre>
+			<pre><button name="tintuc" value="ok">Tin tức</button></pre>
+			<pre><button name="sukien" value="ok">Sự kiện</button></pre>
+			<pre><button name="item 1" value="ok">Item 1</button></pre>
+			<pre><button name="item 2" value="ok">Item 2</button></pre>
+		</div>
+	</div >
+<style>
+#r{
+	width: 65%;
+	height: 400px;
+	background-color:red;
+	position:absolute;
+	top:0px;
+	left:0px;
+	
+
+}
+#l{
+	position: absolute;
+	height:400px;
+	background-color:blue;
+	top:0px;
+	right:0px;
+	left:65%;
+}
+#btn{
+	margin-top:40px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+button{
+	color:white;
+	background:red;
+	border:red;
+	font-size: 20px;
+	padding: 10px;
+	width: 100%;
+	text-align: left;
+}
+button:hover{
+	background: #F5A9A9;
+}
+button:visited{
+	background: #F5A9A9;
+}
+
+<style>
+</body>
+</html>
